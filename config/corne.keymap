@@ -68,17 +68,23 @@
 
             display-name = "Fn";
             bindings = <
-&trans  &kp F10  &kp F9  &kp F8  &kp F7  &bt BT_SEL 0    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &kp F11  &kp F6  &kp F5  &kp F4  &bt BT_SEL 1    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &kp F12  &kp F3  &kp F2  &kp F1  &bt BT_SEL 2    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-                         &bt BT_CLR_ALL  &trans  &trans          &trans  &kp N0  &trans
+&trans  &kp F10  &kp F9  &kp F8  &kp F7  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans  &kp F11  &kp F6  &kp F5  &kp F4  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &kp F12  &kp F3  &kp F2  &kp F1  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+                         &trans  &trans  &trans    &trans  &kp N0  &trans
             >;
         };
 
-        extra_1 { status = "reserved"; };
+        ops {
+            bindings = <
+&bt BT_CLR  &trans  &trans        &trans        &trans        &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans        &bt BT_SEL 4  &bt BT_SEL 3  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+                                  &bt BT_PRV    &bt BT_NXT    &trans            &trans  &trans  &trans
+            >;
 
-        extra_2 { status = "reserved"; };
-
-        extra_3 { status = "reserved"; };
+            label = "ops";
+        };
     };
 };
+
