@@ -36,9 +36,9 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp F     &kp P      &mt LCTRL B       &mt RCTRL J      &kp L     &kp U      &kp Y    &kp SEMICOLON  &kp BACKSLASH
-&kp ESCAPE  &kp A  &kp R  &lt 2 S   &lt 1 T    &mt LEFT_GUI G    &mt RIGHT_GUI M  &lt 1 N   &lt 2 E    &kp I    &kp O          &kp ENTER
-&kp EQUAL   &kp Z  &kp X  &kp C     &kp D      &mt LEFT_ALT V    &mt RIGHT_ALT K  &kp H     &kp COMMA  &kp DOT  &kp FSLH       &kp MINUS
+&kp TAB     &kp Q  &kp W  &kp F     &kp P      &mt LCTRL B       &mt RCTRL J      &kp L     &kp U      &kp Y    &lt 3 SEMI  &kp BACKSLASH
+&kp ESCAPE  &kp A  &kp R  &lt 2 S   &lt 1 T    &mt LEFT_GUI G    &mt RIGHT_GUI M  &lt 1 N   &lt 2 E    &kp I    &kp O       &kp ENTER
+&kp EQUAL   &kp Z  &kp X  &kp C     &kp D      &mt LEFT_ALT V    &mt RIGHT_ALT K  &kp H     &kp COMMA  &kp DOT  &kp FSLH    &kp MINUS
                           &kp LEFT  &kp RIGHT  &kp SPACE         &kp BACKSPACE    &kp DOWN  &kp UP
             >;
         };
@@ -52,9 +52,9 @@
 
             display-name = "Sym";
             bindings = <
-&trans  &trans      &trans      &kp LEFT_BRACE      &kp RIGHT_BRACE      &kp LS(SINGLE_QUOTE)    &trans   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp C_MUTE    &trans
-&trans  &kp LS(N6)  &kp LS(N4)  &kp LS(N9)          &kp LS(N0)           &kp SINGLE_QUOTE        &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp C_VOL_UP  &trans
-&trans  &trans      &trans      &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp GRAVE               &trans   &trans          &trans          &trans           &kp C_VOL_DN  &trans
+&trans  &trans      &trans      &kp LEFT_BRACE      &kp RIGHT_BRACE      &kp LS(SINGLE_QUOTE)    &trans   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp C_MUTE         &trans
+&trans  &kp LS(N6)  &kp LS(N4)  &kp LS(N9)          &kp LS(N0)           &kp SINGLE_QUOTE        &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp C_VOLUME_UP    &trans
+&trans  &trans      &trans      &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &kp GRAVE               &trans   &trans          &trans          &trans           &kp C_VOLUME_DOWN  &trans
                                 &kp LS(COMMA)       &kp LS(PERIOD)       &kp LS(GRAVE)           &kp DEL  &kp PG_DN       &kp PG_UP
             >;
         };
