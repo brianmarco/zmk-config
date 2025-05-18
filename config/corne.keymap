@@ -30,7 +30,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
     };
 
