@@ -84,7 +84,7 @@
             label = "sym";
             bindings = <
 //    ┌─────┬─────┬─────┬───┬───┬───┐   ┌─────────┬──────┬────────────────┬────────────────┬────────────────┬─────┐
-//    │     │     │     │ { │ } │ " │   │         │  \   │      lclk      │    MOVE_up     │      rclk      │     │
+//    │     │     │     │ { │ } │ " │   │         │  \   │      lclk      │  &mmv MOVE_up  │      rclk      │     │
 //    ├─────┼─────┼─────┼───┼───┼───┤   ├─────────┼──────┼────────────────┼────────────────┼────────────────┼─────┤
 //    │     │  ^  │  $  │ ( │ ) │ ' │   │ &arrow  │  -   │ &mmv MOVE_left │ &mmv MOVE_down │ &mmv MOVE_rght │     │
 //    ├─────┼─────┼─────┼───┼───┼───┤   ├─────────┼──────┼────────────────┼────────────────┼────────────────┼─────┤
@@ -92,7 +92,7 @@
 //    └─────┴─────┴─────┼───┼───┼───┤   ├─────────┼──────┼────────────────┼────────────────┴────────────────┴─────┘
 //                      │ < │ > │ ~ │   │   del   │ pgdn │      pgup      │
 //                      └───┴───┴───┘   └─────────┴──────┴────────────────┘
-  &trans   &trans      &trans       &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp DOUBLE_QUOTES       &trans              &kp BACKSLASH   &mkp LCLK        &mkp MOVE_UP     &mkp RCLK         &trans
+  &trans   &trans      &trans       &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp DOUBLE_QUOTES       &trans              &kp BACKSLASH   &mkp LCLK        &mmv MOVE_UP     &mkp RCLK         &trans
   &trans   &kp CARET   &kp DOLLAR   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp SINGLE_QUOTE        &arrow              &kp MINUS       &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &trans
   &trans   &trans      &trans       &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp GRAVE               &kp LS(BACKSLASH)   &kp EQUAL       &trans           &trans           &trans            &trans
                                     &kp LESS_THAN          &kp GREATER_THAN        &kp TILDE               &kp DEL             &kp PG_DN       &kp PG_UP
