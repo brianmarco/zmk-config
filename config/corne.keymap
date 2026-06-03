@@ -83,19 +83,19 @@
         sym {
             label = "sym";
             bindings = <
-//    ┌───────────┬───────────────┬──────────────────────┬───────────────────────┬───────────────────┐   ┌─────────┬───────────┬────────────────┬────────────────┬─────────────────┐
-//    │  &trans   │ &kp BACKSLASH │    &kp LEFT_BRACE    │    &kp RIGHT_BRACE    │ &kp DOUBLE_QUOTES │   │ &trans  │  &trans   │   &mkp LCLK    │  &mmv MOVE_UP  │    &mkp RCLK    │
-//    ├───────────┼───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼───────────┼────────────────┼────────────────┼─────────────────┤
-//    │ &kp CARET │  &kp DOLLAR   │ &kp LEFT_PARENTHESIS │ &kp RIGHT_PARENTHESIS │ &kp SINGLE_QUOTE  │   │ &arrow  │  &trans   │ &mmv MOVE_LEFT │ &mmv MOVE_DOWN │ &mmv MOVE_RIGHT │
-//    ├───────────┼───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼───────────┼────────────────┼────────────────┼─────────────────┤
-//    │  &trans   │    &trans     │   &kp LEFT_BRACKET   │   &kp RIGHT_BRACKET   │     &kp GRAVE     │   │ &trans  │  &trans   │     &trans     │     &trans     │     &trans      │
-//    └───────────┴───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼───────────┼────────────────┼────────────────┴─────────────────┘
-//                                │    &kp LESS_THAN     │   &kp GREATER_THAN    │     &kp TILDE     │   │ &kp DEL │ &kp PG_DN │   &kp PG_UP    │
-//                                └──────────────────────┴───────────────────────┴───────────────────┘   └─────────┴───────────┴────────────────┘
-  &trans      &kp BACKSLASH   &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp DOUBLE_QUOTES       &trans    &trans      &mkp LCLK        &mmv MOVE_UP     &mkp RCLK
-  &kp CARET   &kp DOLLAR      &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp SINGLE_QUOTE        &arrow    &trans      &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT
-  &trans      &trans          &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp GRAVE               &trans    &trans      &trans           &trans           &trans
-                              &kp LESS_THAN          &kp GREATER_THAN        &kp TILDE               &kp DEL   &kp PG_DN   &kp PG_UP
+//    ┌───────────┬───────────────┬──────────────────────┬───────────────────────┬───────────────────┐   ┌─────────┬────────────────┬────────────────┬─────────────────┬────────┐
+//    │  &trans   │ &kp BACKSLASH │    &kp LEFT_BRACE    │    &kp RIGHT_BRACE    │ &kp DOUBLE_QUOTES │   │ &trans  │   &mkp LCLK    │  &mmv MOVE_UP  │    &mkp RCLK    │ &trans │
+//    ├───────────┼───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼────────────────┼────────────────┼─────────────────┼────────┤
+//    │ &kp CARET │  &kp DOLLAR   │ &kp LEFT_PARENTHESIS │ &kp RIGHT_PARENTHESIS │ &kp SINGLE_QUOTE  │   │ &arrow  │ &mmv MOVE_LEFT │ &mmv MOVE_DOWN │ &mmv MOVE_RIGHT │ &trans │
+//    ├───────────┼───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼────────────────┼────────────────┼─────────────────┼────────┤
+//    │  &trans   │    &trans     │   &kp LEFT_BRACKET   │   &kp RIGHT_BRACKET   │     &kp GRAVE     │   │ &trans  │     &trans     │     &trans     │     &trans      │ &trans │
+//    └───────────┴───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼────────────────┼────────────────┼─────────────────┴────────┘
+//                                │    &kp LESS_THAN     │   &kp GREATER_THAN    │     &kp TILDE     │   │ &kp DEL │   &kp PG_DN    │   &kp PG_UP    │
+//                                └──────────────────────┴───────────────────────┴───────────────────┘   └─────────┴────────────────┴────────────────┘
+  &trans      &kp BACKSLASH   &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp DOUBLE_QUOTES       &trans    &mkp LCLK        &mmv MOVE_UP     &mkp RCLK         &trans
+  &kp CARET   &kp DOLLAR      &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp SINGLE_QUOTE        &arrow    &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &trans
+  &trans      &trans          &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp GRAVE               &trans    &trans           &trans           &trans            &trans
+                              &kp LESS_THAN          &kp GREATER_THAN        &kp TILDE               &kp DEL   &kp PG_DN        &kp PG_UP
             >;
         };
 
