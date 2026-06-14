@@ -88,13 +88,13 @@
 //    ├───────┼───────────┼───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼────────────────┼────────────────┼─────────────────┼────────┼───────┤
 //    │ &none │ &kp CARET │  &kp DOLLAR   │ &kp LEFT_PARENTHESIS │ &kp RIGHT_PARENTHESIS │ &kp SINGLE_QUOTE  │   │ &arrow  │ &mmv MOVE_LEFT │ &mmv MOVE_DOWN │ &mmv MOVE_RIGHT │ &trans │ &none │
 //    ├───────┼───────────┼───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼────────────────┼────────────────┼─────────────────┼────────┼───────┤
-//    │ &none │  &trans   │    &trans     │   &kp LEFT_BRACKET   │   &kp RIGHT_BRACKET   │     &kp GRAVE     │   │ &trans  │     &trans     │     &trans     │     &trans      │ &trans │ &none │
+//    │ &none │ &kp HOME  │    &kp END    │   &kp LEFT_BRACKET   │   &kp RIGHT_BRACKET   │     &kp GRAVE     │   │ &trans  │     &trans     │     &trans     │     &trans      │ &trans │ &none │
 //    └───────┴───────────┴───────────────┼──────────────────────┼───────────────────────┼───────────────────┤   ├─────────┼────────────────┼────────────────┼─────────────────┴────────┴───────┘
 //                                        │    &kp LESS_THAN     │   &kp GREATER_THAN    │     &kp TILDE     │   │ &kp DEL │   &kp PG_DN    │   &kp PG_UP    │
 //                                        └──────────────────────┴───────────────────────┴───────────────────┘   └─────────┴────────────────┴────────────────┘
   &none   &trans      &kp BACKSLASH   &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp DOUBLE_QUOTES       &trans    &mkp LCLK        &mmv MOVE_UP     &mkp RCLK         &trans   &none
   &none   &kp CARET   &kp DOLLAR      &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp SINGLE_QUOTE        &arrow    &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &trans   &none
-  &none   &trans      &trans          &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp GRAVE               &trans    &trans           &trans           &trans            &trans   &none
+  &none   &kp HOME    &kp END         &kp LEFT_BRACKET       &kp RIGHT_BRACKET       &kp GRAVE               &trans    &trans           &trans           &trans            &trans   &none
                                       &kp LESS_THAN          &kp GREATER_THAN        &kp TILDE               &kp DEL   &kp PG_DN        &kp PG_UP
             >;
         };
